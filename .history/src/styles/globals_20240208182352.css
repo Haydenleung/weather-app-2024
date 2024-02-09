@@ -1,0 +1,71 @@
+.container {
+  background: #e0e9f0;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem 0rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: none;
+}
+
+.searchForm {
+  width: 20rem;
+  padding: 1rem;
+}
+
+.search {
+  height: 2rem;
+  min-width: 20rem;
+  border-radius: 99rem;
+  border: none;
+  padding: 0.3rem 2.5rem;
+  font-size: 12pt;
+  font-weight: 500;
+  letter-spacing: 1pt;
+  box-shadow: 0px 3px 8px rgb(181, 181, 181);
+  color: rgb(95, 95, 95);
+  text-transform: capitalize;
+  outline: none;
+}
+
+.search:hover {
+  transform: translateY(-1px);
+}
+
+.weatherContainer {
+  flex-grow: 1;
+  background-color: grey;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.today {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(78, 130, 162);
+  width: 50%;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp {
+  font-size: 92pt;
+  font-weight: 800;
+  color: white
+}
+
+.main {
+  font-size: 32pt;
+  font-weight: 600;
+  color: white;
+
+}
