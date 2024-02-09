@@ -1,12 +1,12 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import sun from "../../../public/icons/sun.webp"
-import rain from "../../../public/icons/rain.webp"
-import cloud from "../../../public/icons/cloud.webp"
-import snow from "../../../public/icons/snow.webp"
-import mist from "../../../public/icons/mist.webp"
-import thunder from "../../../public/icons/thunderstorm.webp"
+import sun from "../../../../icons/sun.webp"
+import rain from "../../../../icons/rain.webp"
+import cloud from "../../../../icons/cloud.webp"
+import snow from "../../../../icons/snow.webp"
+import mist from "../../../../icons/mist.webp"
+import thunder from "../../../../icons/thunderstorm.webp"
 
 export default function Container(
     props: { data: IWeatherProps[], date: IDateProps[], fData: IForecastProps[], location: string }
